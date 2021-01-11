@@ -1,0 +1,22 @@
+/* body {
+  background: grey;
+  padding-top: 2rem;
+} */
+#mainNav {
+  position: sticky;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+.card{
+    width:20rem;
+}
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
