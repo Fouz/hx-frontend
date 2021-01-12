@@ -155,7 +155,6 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 10px !important
     }
 
     .card2 {
