@@ -10129,8 +10129,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-/*   background-image: url("../img/background-1409028.svg"); */
-  background-color:grey;
+  background-image: url("../img/background-1409028.svg");
+/*   background-color:grey; */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
