@@ -17,3 +17,21 @@ body {
 .text-right a{
   padding: 10px;
 }
+p.divided{
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-gap: 5px;
+  align-items: center;
+  text-align: right;
+  
+}
+/* p.divided::before{ */
+p.divided::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  
+}
