@@ -17,6 +17,7 @@ body {
 .text-right a{
   padding: 10px;
 }
+/* divider */
 p.divided{
   position: relative;
   display: grid;
@@ -26,12 +27,49 @@ p.divided{
   text-align: right;
   
 }
-/* p.divided::before{ */
 p.divided::after {
   content: "";
   height: 1px;
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);  
+}
+/* countdown timer */
+.countdown {
+  color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-countdown ul{
+  padding: 0;
+}
+div.inner-countdown ul li {
+  display: inline-block;
+  font-size: 9px;
+  list-style-type: none;
+  font-weight: bolder;
+  padding: 1em;
+  color: grey;
+  text-transform: uppercase;
+}
+
+li span {
+  color: black;
+  display: block;
+ font-size: 1.5rem;
+}
+@media all and (max-width: 768px) {
+  p.headline {
+    font-size: 1.5rem;
+  }
+  div.inner-countdown ul li {
+    font-size: 1rem;
+    padding: .75rem;
+  }
+  div.inner-countdown ul li span {
+    font-size: 2.375rem;
+    font-weight: bolder;
+  }
 }
